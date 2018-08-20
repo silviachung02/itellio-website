@@ -1,0 +1,22 @@
+#logo {
+  height: 30px;
+}
+
+
+.nav-list {
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+}
+.nav-list-item {
+  
+}
+.primary-nav a {
+  text-decoration: none;
+}
+.sub-nav {
+  display: none;
+}
+.sub-nav:hover {
+  display: block;
+}
