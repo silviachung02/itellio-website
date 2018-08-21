@@ -1,14 +1,21 @@
 
 @import url('normalize.css');
+@import url('footer.css');
+@import url('home.css');
 @import url('nav.css');
 
 body {
   font-family: 'Roboto', sans-serif;
   color: #274ba0;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+
+h3 {
   margin: 0;
 }
