@@ -1,0 +1,39 @@
+.main {
+  width: 70%;
+  padding-top: 70px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-box {
+  text-align: left;
+  margin-bottom: 70px;
+}
+.title {
+  color: #182A34;
+  font-size: 70px;
+  font-weight: 500;
+}
+.description {
+  color: #182A34;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+.section {
+
+}
+.section-item {
+  text-align: left;
+}
+.question {
+  color: #182A34;
+  font-weight: 500;
+}
+.answer {
+  color: #484848;
+  font-weight: 300;
+}
+.underline {
+
+}

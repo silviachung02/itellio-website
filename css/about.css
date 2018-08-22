@@ -1,0 +1,65 @@
+.header-box {
+  width: 800px;
+  margin: auto;
+}
+.title {
+  /* color: #484848; */
+  font-size: 50px;
+  font-weight: 500;
+}
+.description {
+  color: #484848;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 100px 0;
+}
+
+/* brand logos and stuff */
+.logos-container  {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.logos-container img {
+  height: 70px;
+}
+
+/* section stuff */
+.section-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.section-description {
+  color: #484848;
+  font-size: 18px;
+  font-weight: 400;
+}
+.address {
+  text-align: left;
+  color: #484848;
+  font-size: 18px;
+  font-weight: 300;
+}
+.section.flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 300px 0;
+}
+.column {
+
+}
+.map {
+  background-color: blue;
+  width: 800px;
+  height: 600px;
+}
+
+.left {
+  text-align: left;
+}
