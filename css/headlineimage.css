@@ -1,0 +1,44 @@
+/* main picture header  */
+.head-container {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  margin-bottom: 120px;
+}
+.head-image {
+  height: 285px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+.texts {
+  text-align: left;
+  width: 500px;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+}
+.header {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
+  margin-top: 30px;
+}
+
+/* ---------------------- */
+@media only screen and (min-width: 375px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1366px) {
+}

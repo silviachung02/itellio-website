@@ -1,0 +1,80 @@
+/* main image background color change */
+.head-container {
+  background-color: #ED5024;
+  /* background-color: #FE4715; bright red */
+}
+
+/* rest of stuff for this the page */
+
+.body {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section {
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.textbox {
+  text-align: left;
+  width: 500px;
+}
+.sub-description {
+  color: #484848;
+  line-height: 1.6;
+  font-weight: 300;
+}
+#yellow-box {
+  background-color: #FFDF47;
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+#emotion {
+  position: absolute;
+  height: 65px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#blue-box {
+  background-color: #9BD5FF;
+  position: relative;
+  width: 400px;
+  height: 650px;
+}
+#clear-box {
+  position: relative;
+}
+#mobile-gif {
+  width: 400px;
+}
+#data {
+  position: absolute;
+  height: 335px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.styled-list {
+  list-style-type: disc;
+  color: #484848;
+  margin-left: 20px;
+}
+.title {
+  color: #484848;
+  font-weight: 500;
+  letter-spacing: .5px;
+  margin-bottom: 5px;
+}
+.small {
+  font-size: 15px;
+  margin-top: 0;
+}

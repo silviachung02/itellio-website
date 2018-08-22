@@ -1,8 +1,9 @@
 
 @import url('normalize.css');
 @import url('footer.css');
-@import url('home.css');
 @import url('nav.css');
+@import url('get-started.css');
+@import url('headlineimage.css');
 
 body {
   font-family: 'Roboto', sans-serif;

@@ -1,0 +1,55 @@
+.head-container {
+  background-color: #FFDF47;
+}
+
+
+/* retargeting section pics stuff */
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+}
+.grid-item {
+  text-align: left;
+  width: 300px;
+}
+.grid-image {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.grid-title {
+  color: #274BA0;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.grid-description {
+  color: #484848;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.5;
+}
+.section {
+  padding: 100px 0;
+}
+.section.colored {
+  background-color: #ED5024;
+}
+.section-title {
+  color: #274BA0;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 150px;
+}
+.long-paragraph {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 1000px;
+  margin: auto;
+}
