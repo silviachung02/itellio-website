@@ -1,7 +1,17 @@
 .get-started-container {
   position: relative;
 }
-.center {
+/* .center {
+  position: absolute;
+  text-align: center;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+} */
+#get-started {
   position: absolute;
   text-align: center;
   height: 100px;
@@ -11,6 +21,9 @@
   bottom: 0;
   margin: auto;
 }
+/* #background-image {
+  width: 100%;
+} */
 .get-started-headline {
   color: #ffffff;
   font-size: 18px;
