@@ -110,8 +110,9 @@ general */
 .paragraph {
   width: 86%;
   margin: auto;
+  margin-bottom: 6em;
   color: #182A34;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: .0125em;
@@ -128,8 +129,8 @@ general */
   text-indent: 7%;
 }
 /* layout */
-#partner-clients {
-
+#accomplishments {
+  margin-bottom: 2em;
 }
 .section {
   width: inherit;
@@ -152,6 +153,7 @@ general */
 }
 .logo {
   height: 40px;
+  opacity: .75;
 }
 
 
@@ -163,6 +165,9 @@ general */
   }
   .spaced-apart {
     justify-content: center;
+  }
+  #accomplishments {
+    margin-bottom: 4em;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -176,7 +181,6 @@ general */
     margin-left: 90px;
     margin-right: 90px;
   }
-
 }
 @media only screen and (min-width: 1366px) {
 
