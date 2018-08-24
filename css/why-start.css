@@ -1,7 +1,9 @@
-.head-container {
+.main-pic-container {
   background-color: #FFDF47;
 }
-
+img#on-phone {
+  height: 170px;
+}
 
 /* retargeting section pics stuff */
 .grid-container {
@@ -52,4 +54,21 @@
   line-height: 1.6;
   width: 1000px;
   margin: auto;
+}
+
+
+
+
+
+@media only screen and (min-width: 568px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1366px) {
+
 }

@@ -1,7 +1,9 @@
-.head-container {
+.main-pic-container {
   background-color: #9BD5FF;
 }
-
+img#location {
+  height: 139px;
+}
 /* rest of the stuff for the page */
 .section {
   position: relative;
@@ -56,4 +58,20 @@
   font-size: 30px;
   color: #484848;
   font-weight: 500;
+}
+
+
+
+@media only screen and (min-width: 568px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1366px) {
+
 }

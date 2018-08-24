@@ -4,24 +4,24 @@
 @import url('get-started.css');
 @import url('headlineimage.css');
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font-family: 'Roboto', sans-serif;
-  color: #274ba0;
+  color: #182A34;
+  /* color: #274ba0; */
   text-align: center;
 }
-
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 h3 {
   margin: 0;
+  color: #274ba0;
 }
-/* html, body {
-width: 100%;
-height: 100%;
-margin: 0px;
-padding: 0px;
-} */

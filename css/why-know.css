@@ -1,8 +1,11 @@
 /* main image background color change */
-.head-container {
+.main-pic-container {
   background-color: #ED5024;
-  /* background-color: #FE4715; bright red */
 }
+img#girl {
+  height: 195px;
+}
+
 
 /* rest of stuff for this the page */
 
@@ -77,4 +80,19 @@
 .small {
   font-size: 15px;
   margin-top: 0;
+}
+
+
+
+@media only screen and (min-width: 568px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1366px) {
+
 }
