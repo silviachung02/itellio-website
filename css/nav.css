@@ -1,6 +1,9 @@
 #itellio-image {
   height: 30px;
 }
+#close {
+  height: 30px;
+}
 .nav-header {
   background-color: white;
   height: 66px;
@@ -53,6 +56,6 @@
   font-size: 15px;
   text-transform: uppercase;
   color: #5D78B7;
-    font-weight: 500;
+  font-weight: 500;
   margin-bottom: .5em;
 }
