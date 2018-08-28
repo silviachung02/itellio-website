@@ -29,10 +29,6 @@
   text-align: left;
   padding: 0 10px;
 }
-div#learn-the-tech a.grid-item:hover {
-  border: 2px solid #274ba0;
-}
-
 
 /* LAYOUTTTTTTTTTTTT-------------------- */
 .section {
@@ -47,7 +43,7 @@ div#learn-the-tech a.grid-item:hover {
 }
 .grid-item {
   margin: 25px 30px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   line-height: 0;
 }
 .spaced-apart {
@@ -56,9 +52,6 @@ div#learn-the-tech a.grid-item:hover {
 
 
 /* each thing-accomplishments */
-/* #accomplishments {
-  margin-bottom: 2em;
-} */
 .logo {
   height: 40px;
   opacity: .75;
@@ -73,6 +66,11 @@ div#learn-the-tech a.grid-item:hover {
 #learn-the-tech .grid-item {
   position: relative;
 }
+div#learn-the-tech a.grid-item:hover {
+  border: 1px solid #274ba0;
+  transition: all 0.4s ease-in;
+}
+
 #learn-the-tech > p.paragraph {
   margin-bottom: .5em;
 }
@@ -87,10 +85,7 @@ div#learn-the-tech a.grid-item:hover {
 .feature-image {
   width: 322px;
 }
-.shadow {
-  /* maybe */
-  box-shadow: -2px 2px 18px 0px rgba(206, 204, 204, 0.53);
-}
+
 #learn-the-tech {
   margin-bottom: 4em;
 }
@@ -161,11 +156,7 @@ div#learn-the-tech a.grid-item:hover {
   right: 0;
 }
 #intro-gif h3.headline {
-  /* color: #182A34; */
   font-size: 30px;
-  /* padding: 40px 0 0; */
-  /* margin-top: 0;
-  margin-bottom: 0; */
   line-height: 1.2;
   text-align: center;
 }
@@ -236,9 +227,6 @@ div#learn-the-tech a.grid-item:hover {
   .spaced-apart {
     justify-content: center;
   }
-  /* #accomplishments {
-    margin-bottom: 4em;
-  } */
   .feature-image {
     width: 322px;
   }
