@@ -83,7 +83,7 @@ div#learn-the-tech a.grid-item:hover {
   line-height: 1.15;
 }
 .feature-image {
-  width: 322px;
+  width: 300px;
 }
 
 #learn-the-tech {
@@ -145,13 +145,13 @@ div#learn-the-tech a.grid-item:hover {
   background-position: center;
   /* width: 375px; */
   /* height: 500px; */
-  height: 405px;
+  height: 485px;
   position: relative;
 
 }
 #textbox {
   position: absolute;
-  top: 2vh;
+  top: 8vh;
   left: 0;
   right: 0;
 }
@@ -159,6 +159,7 @@ div#learn-the-tech a.grid-item:hover {
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 1em;
 }
 #intro-gif a.get-started-button {
   border: transparent;
@@ -184,7 +185,11 @@ div#learn-the-tech a.grid-item:hover {
     margin: 0 1.5em;
   }
   #textbox {
-    top: 34vh;
+    top: 8vh;
+  }
+  #intro-gif {
+    background-image: url('../images/landingpage-desktop.gif');
+    height: 385px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -201,14 +206,15 @@ div#learn-the-tech a.grid-item:hover {
 
   #intro-gif {
     background-image: url('../images/landingpage-tablet.gif');
-    height: 865px;
+    height: 795px;
   }
   #intro a {
     width: 125px;
     font-size: 15px;
   }
   #intro h3.headline {
-    margin-bottom: 90px;
+    font-size: 35px;
+    margin-bottom: 2em;
   }
   #textbox {
     top: 10vh;
@@ -244,7 +250,14 @@ div#learn-the-tech a.grid-item:hover {
     margin-right: 90px;
   }
   #intro-gif {
+    background-image: url('../images/landingpage-desktop.gif');
     height: 575px;
+  }
+  #intro-gif h3.headline {
+    margin-bottom: 4.8em;
+  }
+  .get-started-button {
+    width: 137px;
   }
   #learn-the-tech, #how-it-works, #accomplishments {
     padding: 120px 0;
@@ -252,10 +265,13 @@ div#learn-the-tech a.grid-item:hover {
 }
 @media only screen and (min-width: 1366px) {
   #intro-gif {
-    background-image: url('../images/landingpage-desktop.gif');
-    height: 625px;
+    height: 710px;
   }
   #intro-gif h3.headline {
-    margin-bottom: 215px;
+    font-size: 40px;
+    margin-bottom: 6.2em;
+  }
+  .get-started-button {
+    width: 175px;
   }
 }
