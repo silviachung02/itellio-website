@@ -48,6 +48,7 @@ div#learn-the-tech a.grid-item:hover {
 .grid-item {
   margin: 25px 30px;
   border: 2px solid transparent;
+  line-height: 0;
 }
 .spaced-apart {
   justify-content: space-around;
@@ -81,6 +82,7 @@ div#learn-the-tech a.grid-item:hover {
 
 .floating-textbox {
   position: absolute;
+  line-height: 1.15;
 }
 .feature-image {
   width: 322px;
