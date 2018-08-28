@@ -1,16 +1,28 @@
 #itellio-image {
+  height: 24px;
+}
+#itellio-icon {
   height: 30px;
 }
 #close {
-  height: 30px;
+  height: 24px;
 }
-.nav-header {
+#open-menu {
+  height: 23px;
+}
+
+.nav-header, .fixed-header {
+  position: relative;
+  z-index: 5;
   background-color: white;
   height: 66px;
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.fixed-header {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 .primary-nav a {
   text-decoration: none;
@@ -46,12 +58,25 @@
 }
 .primary-nav {
   position: fixed;
-  z-index: 1;
+  top: 0;
+  z-index: 10;
   background-color: #042F80;
   background: linear-gradient(to right, #274BA0, #042F80);
   width: 100%;
   height: 100vh;
+  -webkit-transform: translateX(100vw);
+  -ms-transform: translateX(100vw);
+  transform: translateX(100vw);
+  pointer-events: none;
+  transition: all 0.4s;
 }
+.primary-nav.open {
+  -webkit-transform: translateX(0vw);
+  -ms-transform: translateX(0vw);
+  transform: translateX(0vw);
+  pointer-events: auto;
+}
+
 .caps {
   font-size: 15px;
   text-transform: uppercase;

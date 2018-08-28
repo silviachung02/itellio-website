@@ -1,3 +1,6 @@
+summary:focus {
+  outline: none;
+}
 .main {
   width: 70%;
   padding-top: 70px;
