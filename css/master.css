@@ -25,3 +25,57 @@ h3 {
   margin: 0;
   color: #274ba0;
 }
+
+/* text styles*/
+.headline {
+  width: 86%;
+  margin: auto;
+  font-size: 23px;
+  margin-bottom: 1em;
+  letter-spacing: .0437em;
+  font-weight: 700;
+  text-align: left;
+}
+.paragraph {
+  width: 86%;
+  margin: auto;
+  margin-bottom: 6em;
+  /* color: #182A34; */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: .0125em;
+  text-align: left;
+}
+.paragraph.no-bottom-margin {
+    margin-bottom: 0;
+}
+.all-caps {
+  background-color: #ffffff;
+  text-transform: uppercase;
+  /* color: #182A34; */
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .0437em;
+  padding-top: 2.5em;
+  padding-bottom: .5em;
+  text-indent: 7%;
+}
+.grey {
+  background-color: #F8F8F8;
+}
+@media only screen and (min-width: 768px) {
+  .headline, .paragraph {
+    text-align: center;
+  }
+
+}
+@media only screen and (min-width: 1370px) {
+  body {
+    /* max-width: 1366px;
+    margin: auto; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+  }
+
+}

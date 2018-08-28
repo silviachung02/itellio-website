@@ -5,40 +5,64 @@ img#on-phone {
   height: 170px;
 }
 
+#why-start > p.paragraph {
+  margin-bottom: 3em;
+}
 /* retargeting section pics stuff */
 .grid-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  width: 86%;
+  margin: auto;
+  /* justify-content: space-around; */
 }
-.grid-item {
-  text-align: left;
+/* .grid-item {
   width: 300px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 80px;
+} */
+.grid-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 35px;
+  box-shadow: -1px 0px 11px 1px rgba(225, 226, 228, 0.4);
 }
 .grid-image {
   height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-bottom: 50px; */
 }
 .grid-title {
   color: #274BA0;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: .5em;
+  letter-spacing: .0437em;
 }
 .grid-description {
-  color: #484848;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   margin: 0;
   line-height: 1.5;
+  letter-spacing: .0125em;
 }
-.section {
-  padding: 100px 0;
+#why-start {
+  padding: 65px 0;
+  /* padding: 100px 0; */
 }
-.section.colored {
+/* .section {
+padding: 100px 0;
+} */
+/* .section.colored {
   background-color: #ED5024;
 }
 .section-title {
@@ -54,7 +78,7 @@ img#on-phone {
   line-height: 1.6;
   width: 1000px;
   margin: auto;
-}
+} */
 
 
 
@@ -64,11 +88,41 @@ img#on-phone {
 
 }
 @media only screen and (min-width: 768px) {
-
+  .grid-item {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (min-width: 1024px) {
-
+  .grid-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 75px;
+  }
+  .grid-item {
+    width: 280px;
+    max-width: 370px;
+    /* margin: auto; */
+  }
+  #why-start > h3.headline {
+    text-align: center;
+  }
+  #why-start > p.paragraph {
+    text-align: center;
+    width: 60%;
+  }
 }
 @media only screen and (min-width: 1366px) {
+  .grid-container {
+    justify-content: center;
+  }
+  .grid-item {
+    /* width: 370px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+  }
 
 }

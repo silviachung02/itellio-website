@@ -112,6 +112,9 @@ footer {
   .section {
     width: 50%;
   }
+  .footer-list-header, .footer-list-item {
+    font-size: 13px;
+  }
 
 }
 @media only screen and (min-width: 1366px) {

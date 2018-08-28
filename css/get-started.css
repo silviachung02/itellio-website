@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   height: 375px;
+  /* height: 285px; */
 
   /* position: relative; */
 }
@@ -29,6 +30,9 @@
   border: 2px solid #ffffff;
   color: #ffffff;
 }
+.get-started-button:hover {
+  
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -36,7 +40,7 @@
     background-image: url('../images/background-small-tablet.svg');
   }
   #get-started > h3 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .get-started-button {
     width: 175px;
@@ -49,7 +53,11 @@
 }
 @media only screen and (min-width: 1366px) {
   #get-started {
+    height: 285px;
     background-image: url('../images/background-desktop.svg');
+  }
+  #get-started h3 {
+    padding-top: 110.5px;
   }
 
 }

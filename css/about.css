@@ -1,65 +1,104 @@
-.header-box {
-  width: 800px;
+.headline.center {
+  text-align: center
+}
+.paragraph.center {
+  text-align: center
+}
+div#about > div.section {
+  width: 100%;
+  padding: 100px 0;
+  /* margin: 50px 0; */
+}
+.headerbox {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  width: 86%;
   margin: auto;
 }
-.title {
-  /* color: #484848; */
-  font-size: 50px;
-  font-weight: 500;
+.headerbox h3 {
+  font-size: 28px;
+  margin-bottom: 1em;
+  letter-spacing: .0437em;
+  font-weight: 700;
 }
-.description {
+.headerbox p {
   color: #484848;
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin: 100px 0;
+  letter-spacing: .0125em;
 }
 
 /* brand logos and stuff */
 .logos-container  {
-  width: 1000px;
+  width: 86%;
+  margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
-
 .logos-container img {
   height: 70px;
+  margin: 25px;
 }
 
-/* section stuff */
-.section-title {
-  font-size: 30px;
-  font-weight: 500;
-}
-.section-description {
-  color: #484848;
-  font-size: 18px;
-  font-weight: 400;
-}
 .address {
-  text-align: left;
+  width: 86%;
+  margin: auto;
+  /* text-align: left; */
+  text-align: center;
   color: #484848;
   font-size: 18px;
   font-weight: 300;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-.section.flex {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 300px 0;
+/* #about > .section {
+  padding: 20px 0;
+} */
+
+
+/* image  */
+/* .image-container {
+  width: 100%;
+  object-fit: cover;
 }
-.column {
+#car-on-the-road {
+  height: 100px;
+} */
+.image-container {
+  overflow: hidden;
+  height: 100px;
 
 }
-.map {
-  background-color: blue;
-  width: 800px;
-  height: 600px;
+#car-on-the-road {
+  height: inherit;
+  object-fit: cover;
+  object-position: 0 50%;
 }
 
-.left {
-  text-align: left;
+@media only screen and (min-width: 768px) {
+  .headerbox {
+    width: 60%;
+  }
+  .headerbox h3 {
+    font-size: 32px;
+  }
+  .image-container {
+    margin-bottom: 90px;
+  }
+  /* .headerbox p {
+    font-size: 1px;
+  } */
+}
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1366px) {
+  .headerbox {
+    /* padding-top: 30px;
+    padding-bottom: 70px; */
+    width: 50%;
+  }
+
 }

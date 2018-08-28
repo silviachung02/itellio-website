@@ -4,60 +4,35 @@
 img#location {
   height: 139px;
 }
-/* rest of the stuff for the page */
-.section {
-  position: relative;
-}
-.long-paragraph {
-  line-height: 1.6;
-  color: #484848;
-  font-size: 23px;
-  font-weight: 300;
-  width: 1000px;
-  margin: auto;
-}
 
+
+/* rest of the stuff for the page */
+#why-target {
+  position: relative;
+  padding: 40px 0;
+}
 
 /* brand logos and stuff */
 .logos-container  {
-  width: 1000px;
+  width: 86%;
+  margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
-
 .logos-container img {
   height: 70px;
+  margin: 25px;
 }
 
 /* iframe stuff */
+#map-container {
+  position: relative;
+  width: 100%;
+}
 #google-map {
   width: 100%;
-  /* height: */
-}
-.overlay {
-  position: absolute;
-  width: 550px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: black;
-}
-.input-field {
-  border: 9px solid red;
-}
-.underline-field {
-  border-bottom: 2px solid #484848;
-}
-.label {
-  font-size: 30px;
-  color: #484848;
-  font-weight: 500;
+  height: 70vh;
 }
 
 
@@ -67,11 +42,17 @@ img#location {
 }
 
 @media only screen and (min-width: 768px) {
+  #why-target > p.paragraph {
+    margin-top: 30px;
+    text-align: center;
+  }
 
 }
 @media only screen and (min-width: 1024px) {
 
 }
 @media only screen and (min-width: 1366px) {
-
+  #why-target > p.paragraph {
+    width: 60%;
+  }
 }

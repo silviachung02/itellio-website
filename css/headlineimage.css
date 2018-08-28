@@ -2,7 +2,7 @@
 .main-pic-container {
   height: 400px;
   position: relative;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
   padding: 7% 7% 0 7%;
 }
 .main-image {
@@ -50,4 +50,10 @@
 
 }
 @media only screen and (min-width: 1366px) {
+  .main-textbox > h3 {
+    font-size: 35px;
+  }
+  .main-textbox > p {
+    font-size: 20px;
+  }
 }
