@@ -1,7 +1,6 @@
 /* main image background color change */
-.main-pic-container {
+.header-background {
   background-color: #ED5024;
-  /* background-color: #D8503A; */
 }
 img#girl {
   height: 195px;
@@ -9,142 +8,105 @@ img#girl {
 
 
 /* rest of stuff for this the page */
-#why-know > div.section > div:nth-child(1) {
-  margin-bottom: 15px;
-}
-#why-know {
-  width: 86%;
-  margin: auto;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 0;
-}
 div#why-know > .section {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* margin-bottom: 120px; */
-  margin-top: 0;
-  margin-bottom: 40px;
-
+  padding: 40px 0;
+  margin: 0;
+}
+div#why-know > .section:nth-child(3) {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   padding-top: 0;
 }
 .textbox {
-  text-align: left;
-  /* width: 500px; */
+  width: 86%;
+  max-width: 575px;
+  margin: auto;
+}
+.spaces {
+  margin: 40px 0;
+}
+#mobile-gif {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#data {
+  height: 100px;
+  margin-bottom: 30px;
+}
+#emotion {
+  height: 50px;
+  margin-bottom: 30px;
+}
+.textbox {
+  text-align: center;
 }
 .sub-description {
   color: #484848;
   line-height: 1.6;
   font-weight: 300;
 }
-#yellow-box {
-  background-color: #FFDF47;
-  position: relative;
-  width: 100%;
-  height: 150px;
-}
-#emotion {
-  position: absolute;
-  height: 43px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-#blue-box {
-  background-color: #9BD5FF;
-  position: relative;
-  width: 100%;
-  /* height: 300px; */
-  height: 180px;
-}
-#clear-box {
-  position: relative;
-}
-#mobile-gif {
-  width: 100%;
-}
-#data {
-  position: absolute;
-  /* height: 335px; */
-  height: 150px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
 .styled-list {
   list-style-type: disc;
   color: #484848;
   margin-left: 20px;
+  text-align: left;
 }
-.title {
-  color: #484848;
-  font-weight: 500;
-  letter-spacing: .5px;
-  margin-bottom: 5px;
+.sub-header {
+  font-size: 23px;
+  margin-bottom: 2em;
+  letter-spacing: .0437em;
+  font-weight: 700;
 }
-.small {
-  font-size: 15px;
-  margin-top: 0;
-}
+
 
 
 
 @media only screen and (min-width: 568px) {
-
+  #mobile-gif {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  div#why-know > .section:nth-child(3) {
+     padding-top: 40px;
+  }
 }
+
 @media only screen and (min-width: 768px) {
-  div#why-know > .section.reverse {
-    flex-direction: row-reverse;
+  .textbox {
+    width: 56%;
   }
   div#why-know > .section {
-    /* width: 100%;
-    display: flex; */
-    flex-direction: row;
-    margin-bottom: 120px;
-    /* margin-top: 0;
-    margin-bottom: 40px; */
+    padding: 100px 0;
   }
-  #yellow-box {
-    width: 250px;
-    height: inherit;
+  .spaces {
+    margin-bottom: 65px;
   }
-  .textbox {
-    width: 55%;
+  div#why-know > .section:nth-child(3) {
+     flex-direction: row;
+     height: 600px;
+     padding-left: 100px;
+     padding-right: 100px;
+     max-width: 1366px;
+     margin: auto;
   }
-  #emotion {
-    height: 50px;
-  }
-  #blue-box {
-    background-color: #9BD5FF;
-    position: relative;
-    width: 250px;
-    height: inherit;
+  div#why-know > .section:nth-child(3) > .textbox {
+    /* width: 300px; */
+    text-align: left;
   }
   #mobile-gif {
     width: 250px;
+    margin-bottom: auto;
   }
 }
 @media only screen and (min-width: 1024px) {
-  #yellow-box, #blue-box, #mobile-gif {
-    width: 350px;
-  }
-  #why-know {
-    padding: 100px 0;
+  .styled-list {
+    width: 425px;
+    margin: auto;
   }
 
 }
 @media only screen and (min-width: 1366px) {
-  div#why-know > .section {
-    justify-content: center;
-  }
-  #why-know > div.section > div {
-    margin: 0 20px;
-  }
 }

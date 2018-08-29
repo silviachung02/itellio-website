@@ -1,6 +1,7 @@
-.main-pic-container {
+.header-background {
   background-color: #9BD5FF;
 }
+
 img#location {
   height: 139px;
 }
@@ -54,6 +55,7 @@ iframe {
   }
   #why-target {
     padding-bottom: 100px;
+    max-width: 1366px;
   }
 
 }
@@ -61,7 +63,23 @@ iframe {
 
 }
 @media only screen and (min-width: 1366px) {
+  #why-target {
+    padding-bottom: 120px;
+  }
   #why-target > p.paragraph {
     width: 60%;
   }
+}
+
+@media only screen and (min-width: 1368px) {
+    #why-target {
+      width: 1200px;
+      margin: auto;
+    }
+  /* #why-target > p.paragraph {
+      width: 45%;
+  }
+  #why-target > div.logos-container {
+    width: 45%;
+  } */
 }

@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .fixed-header {
   position: -webkit-sticky;
@@ -89,8 +90,19 @@
   margin-bottom: .5em;
 }
 
+@media only screen and (min-width: 768px) {
+  .primary-nav {
+    width: 33vw;
+  }
+  /* .fixed-header {
+    padding: 0 32px;
+  } */
+}
 @media only screen and (min-width: 1366px) {
   .primary-nav {
     width: 33vw;
+  }
+  .fixed-header {
+    padding: 0 150px;
   }
 }

@@ -10,12 +10,14 @@
 </head>
 
 <body>
-  <div class="main-pic-container">
-    <div class="main-textbox">
-      <h3>Start A Dialogue</h3>
-      <p>Mobile retargeting allows you to reach the right consumers and measure the success of your campaign by measuring actual clicks.</p>
+  <div class="header-background">
+    <div class="main-pic-container">
+      <div class="main-textbox">
+        <h3>Start A Dialogue</h3>
+        <p>Mobile retargeting allows you to reach the right consumers and measure the success of your campaign by measuring actual clicks.</p>
+      </div>
+      <img id="on-phone" class="main-image" src="../images/on-phone.svg" alt="Girl and boy on the phone">
     </div>
-    <img id="on-phone" class="main-image" src="../images/on-phone.svg" alt="Girl and boy on the phone">
   </div>
   <div id="why-start">
     <h3 class="headline">Ad exposure creates brand awareness</h3>
@@ -47,9 +49,11 @@
   <!-- <div class="section colored">
     <p class="long-paragraph">Ad exposure creates brand awareness. Mobile retargeting allows you to know the success of your campaign by tracking viewer’s engagement of your ad on their mobile. This is why we call it “Start A Dialogue”</p>
   </div> -->
-  <div id="get-started">
-    <h3>Ready to find out what we are all about?</h3>
-    <a class="get-started-button" href="./contact.html">Get Started</a>
+  <div id="get-started-container">
+    <div id="get-started">
+      <h3>Ready to find out what we are all about?</h3>
+      <a class="get-started-button" href="./contact.html">Get Started</a>
+    </div>
   </div>
   <footer>
     <div class="footer-menu">
@@ -60,23 +64,23 @@
         <div class="section">
           <p class="footer-list-header">Company</p>
           <ul class="footer-list">
-            <li class="footer-list-item">About Us</li>
-            <li class="footer-list-item">Contact Us</li>
-            <li class="footer-list-item">Frequently Asked Questions</li>
+            <li class="footer-list-item"><a href="./about.html">About Us</a></li>
+            <li class="footer-list-item"><a href="./contact.html">Contact Us</a></li>
+            <li class="footer-list-item"><a href="./faq.html">Frequently Asked Questions</a></li>
           </ul>
         </div>
         <div class="section">
           <p class="footer-list-header">Product</p>
           <ul>
-            <li class="footer-list-item">Screen Sizes</li>
+            <li class="footer-list-item"><a href="./product.html">Screen Sizes</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-social-block">
       <ul class="footer-list">
-        <li class="social-icons"><svg id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.12 86.09"><title>facebook</title><path d="M0,43V28c.35-.05,5.07-.15,7.08-.15h1.5c0-2.49,0-4.83,0-7.16a48.5,48.5,0,0,1,.34-6.39c.87-5.5,3.46-9.9,8.61-12.46A18.83,18.83,0,0,1,25.85,0c4.44,0,13.77.07,14,.1V14.8H30.63c-2.73,0-4.12,1.39-4.15,4.14,0,2.47,0,4.94,0,7.41v1.57H40.12c-.52,5.12-1,10.11-1.56,15.2H26.43v43H8.57V43Z"/></g></svg></li>
-        <li class="social-icons"><svg id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.45 70.35"><title>twitter</title><path d="M28.64,70.35h-2.9c-.11,0-.22,0-.33,0a49.39,49.39,0,0,1-10-1.33A50.29,50.29,0,0,1,.56,62.79L0,62.43A37.32,37.32,0,0,0,13.8,61.3,35.34,35.34,0,0,0,26.17,55,17.76,17.76,0,0,1,9.64,42.7a17.49,17.49,0,0,0,3.95.29,15,15,0,0,0,3.88-.6A17.8,17.8,0,0,1,3.41,24.76a17.62,17.62,0,0,0,8,2.19A17.76,17.76,0,0,1,6,3.27,50.73,50.73,0,0,0,22.26,16.42a50.09,50.09,0,0,0,20.25,5.39c0-.08,0-.12,0-.16l0-.19a17.61,17.61,0,0,1,0-7.44A17.32,17.32,0,0,1,49,3.68a17.78,17.78,0,0,1,23.6,1.76.34.34,0,0,0,.38.12A35.09,35.09,0,0,0,83.3,1.74l.77-.43a17.38,17.38,0,0,1-3,5.6,18.9,18.9,0,0,1-4.69,4.18A35.23,35.23,0,0,0,86.45,8.34c-.09.13-.12.2-.17.26a35.35,35.35,0,0,1-8.46,8.75.39.39,0,0,0-.22.38,44.18,44.18,0,0,1-.13,6.3,50.14,50.14,0,0,1-1.39,8.06A52.94,52.94,0,0,1,70.5,45.72a49.75,49.75,0,0,1-13.29,15,47.41,47.41,0,0,1-16,7.78,44.12,44.12,0,0,1-6.33,1.29c-1.47.18-3,.3-4.43.44C29.85,70.29,29.24,70.31,28.64,70.35Z"/></g></svg></li>
+        <li class="social-icons"><a href="https://www.facebook.com/iTellioAdNetwork/"><svg id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.12 86.09"><title>facebook</title><path d="M0,43V28c.35-.05,5.07-.15,7.08-.15h1.5c0-2.49,0-4.83,0-7.16a48.5,48.5,0,0,1,.34-6.39c.87-5.5,3.46-9.9,8.61-12.46A18.83,18.83,0,0,1,25.85,0c4.44,0,13.77.07,14,.1V14.8H30.63c-2.73,0-4.12,1.39-4.15,4.14,0,2.47,0,4.94,0,7.41v1.57H40.12c-.52,5.12-1,10.11-1.56,15.2H26.43v43H8.57V43Z"/></g></svg></a></li>
+        <li class="social-icons"><a href="https://twitter.com/itellionetwork"><svg id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.45 70.35"><title>twitter</title><path d="M28.64,70.35h-2.9c-.11,0-.22,0-.33,0a49.39,49.39,0,0,1-10-1.33A50.29,50.29,0,0,1,.56,62.79L0,62.43A37.32,37.32,0,0,0,13.8,61.3,35.34,35.34,0,0,0,26.17,55,17.76,17.76,0,0,1,9.64,42.7a17.49,17.49,0,0,0,3.95.29,15,15,0,0,0,3.88-.6A17.8,17.8,0,0,1,3.41,24.76a17.62,17.62,0,0,0,8,2.19A17.76,17.76,0,0,1,6,3.27,50.73,50.73,0,0,0,22.26,16.42a50.09,50.09,0,0,0,20.25,5.39c0-.08,0-.12,0-.16l0-.19a17.61,17.61,0,0,1,0-7.44A17.32,17.32,0,0,1,49,3.68a17.78,17.78,0,0,1,23.6,1.76.34.34,0,0,0,.38.12A35.09,35.09,0,0,0,83.3,1.74l.77-.43a17.38,17.38,0,0,1-3,5.6,18.9,18.9,0,0,1-4.69,4.18A35.23,35.23,0,0,0,86.45,8.34c-.09.13-.12.2-.17.26a35.35,35.35,0,0,1-8.46,8.75.39.39,0,0,0-.22.38,44.18,44.18,0,0,1-.13,6.3,50.14,50.14,0,0,1-1.39,8.06A52.94,52.94,0,0,1,70.5,45.72a49.75,49.75,0,0,1-13.29,15,47.41,47.41,0,0,1-16,7.78,44.12,44.12,0,0,1-6.33,1.29c-1.47.18-3,.3-4.43.44C29.85,70.29,29.24,70.31,28.64,70.35Z"/></g></svg></a></li>
       </ul>
     </div>
   </footer>

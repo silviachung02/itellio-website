@@ -1,4 +1,4 @@
-.main-pic-container {
+.header-background {
   background-color: #FFDF47;
 }
 img#on-phone {
@@ -46,32 +46,7 @@ img#on-phone {
 }
 #why-start {
   padding: 65px 0;
-  /* padding: 100px 0; */
 }
-/* .section {
-padding: 100px 0;
-} */
-/* .section.colored {
-  background-color: #ED5024;
-}
-.section-title {
-  color: #274BA0;
-  font-size: 35px;
-  font-weight: 500;
-  margin-bottom: 150px;
-}
-.long-paragraph {
-  font-size: 25px;
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 1.6;
-  width: 1000px;
-  margin: auto;
-} */
-
-
-
-
 
 @media only screen and (min-width: 568px) {
 
@@ -81,6 +56,13 @@ padding: 100px 0;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  #why-start {
+    padding: 100px 0;
+  }
+  #why-start > p.paragraph {
+    margin-bottom: 4em;
+    width: 70%;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -92,7 +74,6 @@ padding: 100px 0;
   .grid-item {
     width: 280px;
     max-width: 370px;
-    /* margin: auto; */
   }
   #why-start > h3.headline {
     text-align: center;
@@ -107,11 +88,8 @@ padding: 100px 0;
     justify-content: center;
   }
   .grid-item {
-    /* width: 370px; */
     margin-left: 20px;
     margin-right: 20px;
-    /* margin-left: 0px;
-    margin-right: 0px; */
   }
 
 }

@@ -1,13 +1,17 @@
-.headline.center {
+.center {
   text-align: center
 }
-.paragraph.center {
+.center {
   text-align: center
 }
 div#about > div.section {
   width: 100%;
   padding: 100px 0;
   /* margin: 50px 0; */
+}
+#about {
+  max-width: 1366px;
+  margin: auto;
 }
 .headerbox {
   padding-top: 30px;

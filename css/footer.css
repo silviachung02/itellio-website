@@ -58,7 +58,15 @@ footer {
   letter-spacing: .0125em;
   margin-bottom: 15px;
 }
-
+.footer-list-item a {
+  text-decoration: none;
+}
+li.footer-list-item > a:hover {
+  color: #274ba0;
+}
+.footer-list-item a:visited {
+  color: #182A34;
+}
 
 
 
@@ -121,5 +129,9 @@ footer {
   /* .section {
     width: 50%;
   } */
-
+  footer {
+    width: 1366px;
+    margin: auto;
+    padding-top: 70px;
+  }
 }

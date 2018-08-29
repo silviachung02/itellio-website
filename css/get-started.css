@@ -1,9 +1,14 @@
+#get-started-container {
+  background-color: #274ba0;
+}
 #get-started {
   background-image: url('../images/background-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 375px;
+  max-width: 1450px;
+  margin: auto;
   /* height: 285px; */
 
   /* position: relative; */
@@ -31,7 +36,8 @@
   color: #ffffff;
 }
 .get-started-button:hover {
-  
+  transition: background-color .4s;
+  background-color: #091784;
 }
 
 
@@ -57,7 +63,7 @@
     background-image: url('../images/background-desktop.svg');
   }
   #get-started h3 {
-    padding-top: 110.5px;
+    padding-top: 102.5px;
   }
 
 }

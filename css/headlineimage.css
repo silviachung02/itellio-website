@@ -1,9 +1,12 @@
 /* main picture header  */
+
 .main-pic-container {
   height: 400px;
   position: relative;
   /* margin-bottom: 120px; */
   padding: 7% 7% 0 7%;
+  max-width: 1366px;
+  margin: auto;
 }
 .main-image {
   height: 285px;
@@ -55,5 +58,16 @@
   }
   .main-textbox > p {
     font-size: 20px;
+  }
+  /* .main-pic-container {
+    padding: 7% 16% 0 16%;
+  } */
+  /* .main-image {
+    right: 16%;
+  } */
+}
+@media only screen and (min-width: 1368px) {
+  .main-pic-container {
+    padding: 95px 95px 0 95px;
   }
 }

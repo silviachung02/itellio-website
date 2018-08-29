@@ -57,6 +57,34 @@
   opacity: .75;
 }
 
+/* intro gif */
+#intro-gif {
+  background-image: url('../images/landingpage-tablet.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* width: 375px; */
+  /* height: 500px; */
+  height: 485px;
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+}
+#textbox {
+  position: absolute;
+  top: 8vh;
+  left: 0;
+  right: 0;
+}
+#intro-gif h3.headline {
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1em;
+}
+#intro-gif a.get-started-button {
+  border: transparent;
+}
 
 /* each thing-learn the tech */
 #learn-the-tech > .grid-container {
@@ -86,14 +114,11 @@ div#learn-the-tech a.grid-item:hover {
   width: 300px;
 }
 
-#learn-the-tech {
-  margin-bottom: 4em;
-}
-
-
 /*how it works */
 #learn-the-tech, #how-it-works, #accomplishments {
   padding: 50px 0;
+  max-width: 1440px;
+  margin: auto;
 }
 #how-it-works > .grid-container {
   display: flex;
@@ -131,39 +156,22 @@ div#learn-the-tech a.grid-item:hover {
   border-color: transparent;
   background-color: #274ba0;
 }
+.get-started-button.no-border:hover {
+  transition: background-color .4s;
+  background-color: #091784;
+}
 .get-started-button.reverse-color {
   background-color: #ffffff;
   color: #274ba0;
   border-color: #274ba0;
 }
+.get-started-button.reverse-color:hover {
+  color: #ffffff;
+  background-color: #091784;
+  border-color: #091784;
+  transition: all .4s;
+}
 
-/* intro gif */
-#intro-gif {
-  background-image: url('../images/landingpage-tablet.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* width: 375px; */
-  /* height: 500px; */
-  height: 485px;
-  position: relative;
-
-}
-#textbox {
-  position: absolute;
-  top: 8vh;
-  left: 0;
-  right: 0;
-}
-#intro-gif h3.headline {
-  font-size: 30px;
-  line-height: 1.2;
-  text-align: center;
-  margin-bottom: 1em;
-}
-#intro-gif a.get-started-button {
-  border: transparent;
-}
 
 
 
@@ -270,6 +278,7 @@ div#learn-the-tech a.grid-item:hover {
   #intro-gif h3.headline {
     font-size: 40px;
     margin-bottom: 6.2em;
+        margin-bottom: 5.6em;
   }
   .get-started-button {
     width: 175px;
