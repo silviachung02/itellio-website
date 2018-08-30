@@ -168,7 +168,7 @@
    }
    .nav-list, .nav-footer {
      background-color: #ffffff;
-          height: 66px;
+     height: 66px;
    }
    .nav-footer ul {
      display: flex;
@@ -180,6 +180,10 @@
   .nav-footer li {
     font-size: 18px;
     padding: 0;
+    color: #274BA0;
+  }
+  .nav-footer li a:hover {
+    color: #274BA0;
   }
   ul.sub-nav {
    display: none;
@@ -217,5 +221,8 @@
   }
   .primary-nav > img#itellio-image {
       display: block;
+  }
+  .caps:hover {
+    color: #274BA0;
   }
 }
