@@ -225,8 +225,8 @@ div#learn-the-tech a.grid-item:hover {
     margin-bottom: 2em;
   }
   #textbox {
-    /* top: 10vh; */
-    top: 21vh;
+    top: 10vh;
+    /* top: 21vh; */
   }
 
   #learn-the-tech > .grid-container .grid-item {
@@ -287,7 +287,6 @@ div#learn-the-tech a.grid-item:hover {
   #intro-gif h3.headline {
     font-size: 40px;
     margin-bottom: 6.2em;
-        margin-bottom: 5.6em;
   }
   .get-started-button {
     width: 175px;
