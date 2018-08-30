@@ -54,22 +54,9 @@ div#about > div.section {
   color: #484848;
   font-size: 18px;
   font-weight: 300;
-  margin-top: 2em;
   margin-bottom: 2em;
 }
-/* #about > .section {
-  padding: 20px 0;
-} */
 
-
-/* image  */
-/* .image-container {
-  width: 100%;
-  object-fit: cover;
-}
-#car-on-the-road {
-  height: 100px;
-} */
 .image-container {
   overflow: hidden;
   height: 100px;
@@ -91,12 +78,21 @@ div#about > div.section {
   .image-container {
     margin-bottom: 90px;
   }
+  #about {
+    padding-top: 70px;
+  }
+  /* .image-container {
+    height: 150px;
+  } */
   /* .headerbox p {
     font-size: 1px;
   } */
 }
 @media only screen and (min-width: 1024px) {
-
+  .image-container {
+    height: 150px;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 1366px) {
   .headerbox {
