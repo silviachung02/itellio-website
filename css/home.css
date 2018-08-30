@@ -225,7 +225,8 @@ div#learn-the-tech a.grid-item:hover {
     margin-bottom: 2em;
   }
   #textbox {
-    top: 10vh;
+    /* top: 10vh; */
+    top: 21vh;
   }
 
   #learn-the-tech > .grid-container .grid-item {
@@ -270,8 +271,16 @@ div#learn-the-tech a.grid-item:hover {
   #learn-the-tech, #how-it-works, #accomplishments {
     padding: 120px 0;
   }
+  #learn-the-tech > p.paragraph {
+    margin-bottom: 3.5em;
+  }
 }
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1024px) and (orientation: landscape)  {
+  #intro-gif h3.headline {
+    margin-bottom: 6.5em;
+  }
+}
+@media only screen and (min-width: 1366px) and (orientation: landscape) {
   #intro-gif {
     height: 710px;
   }
