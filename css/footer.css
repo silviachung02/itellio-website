@@ -51,12 +51,14 @@ footer {
   font-weight: 500;
   letter-spacing: .0437em;
 }
-.footer-list-item {
-  color: #182A34;
+.footer-list-item  {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: .0125em;
   margin-bottom: 15px;
+}
+.footer-list-item a {
+  color: #182A34;
 }
 .footer-list-item a {
   text-decoration: none;
@@ -126,9 +128,7 @@ li.footer-list-item > a:hover {
 
 }
 @media only screen and (min-width: 1366px) {
-  /* .section {
-    width: 50%;
-  } */
+
   footer {
     width: 1366px;
     margin: auto;

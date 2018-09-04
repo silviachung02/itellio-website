@@ -33,7 +33,6 @@
   position: sticky;
   top: 0;
   z-index: 5;
-  /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); */
 }
 .primary-nav a {
   text-decoration: none;
@@ -95,7 +94,7 @@
   font-weight: 500;
   margin-bottom: .5em;
 }
-.primary-nav > img#itellio-image {
+.primary-nav img#itellio-image {
   display: none;
 }
 .primary-nav.open > img#itellio-image {
@@ -103,21 +102,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  /* .primary-nav {
-    width: 50vw;
-  } */
-  /* .fixed-header {
-    padding: 0 32px;
-  } */
 }
 @media only screen and (min-width: 1366px) {
-  /* .primary-nav {
-    width: 33vw;
-  } */
-  /* .fixed-header {
-    padding: 0 150px;
-  }
-   */
   .nav-container {
     background-color: #ffffff;
     height: 66px;
@@ -128,11 +114,7 @@
     margin-right: 63px;
   }
    .fixed-header {
-     /* padding: 0 85px; */
-      /* padding: 0 0; */
-      /* max-width: 1605px;
-      margin: auto; */
-      display: none;
+     display: none;
    }
    .nav-header {
      display: none;
@@ -148,7 +130,6 @@
     display: flex;
     align-items: center;
     pointer-events: auto;
-    /* width: 84vw; */
 
     max-width: 1300px;
     top: 0;
@@ -219,8 +200,8 @@
   .primary-nav a:visited {
     color: #182A34;
   }
-  .primary-nav > img#itellio-image {
-      display: block;
+  .primary-nav img#itellio-image {
+    display: block;
   }
   .caps:hover {
     color: #274BA0;

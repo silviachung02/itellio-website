@@ -2,7 +2,6 @@
   padding: 40px 0;
 }
 #product figure img {
-  /* width: 300px; */
   width: 100%;
 }
 #product figure {
@@ -10,9 +9,8 @@
   padding: 30px 20px 0;
 }
 #product figcaption {
-  /* background-color: grey; */
   padding: 10px 0;
-    text-align: left;
+  text-align: left;
 }
 #product figure h3 {
   color: #182A34;
@@ -43,8 +41,6 @@
 @media only screen and (min-width: 768px) {
   .header {
     margin-bottom: 0px;
-
-    /* text-align: center; */
   }
   #product .headline {
     margin-bottom: .5em;
@@ -59,10 +55,8 @@
     align-items: center;
   }
   #product figure img {
-    /* width: 200px; */
     width: auto;
     height: 150px;
-    /* width: 100%; */
   }
     #product figcaption {
       width: 40%;
@@ -80,19 +74,3 @@
     width: 61%;
   }
 }
-/* .floating-textbox h3 {
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: .0437em;
-  text-align: left;
-  padding: 0 10px;
-}
-.floating-textbox p {
-  color: #484848;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 1.6;
-  letter-spacing: .0125em;
-  text-align: left;
-  padding: 0 10px;
-} */

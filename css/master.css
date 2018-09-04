@@ -13,7 +13,6 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   color: #182A34;
-  /* color: #274ba0; */
   text-align: center;
 }
 ul {
@@ -40,7 +39,6 @@ h3 {
   width: 86%;
   margin: auto;
   margin-bottom: 6em;
-  /* color: #182A34; */
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
@@ -48,12 +46,11 @@ h3 {
   text-align: left;
 }
 .paragraph.no-bottom-margin {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .all-caps {
   background-color: #ffffff;
   text-transform: uppercase;
-  /* color: #182A34; */
   font-size: 15px;
   font-weight: 500;
   letter-spacing: .0437em;
@@ -71,11 +68,4 @@ h3 {
 
 }
 @media only screen and (min-width: 1370px) {
-  body {
-    /* max-width: 1366px;
-    margin: auto; */
-    /* margin-left: 10%;
-    margin-right: 10%; */
-  }
-
 }
